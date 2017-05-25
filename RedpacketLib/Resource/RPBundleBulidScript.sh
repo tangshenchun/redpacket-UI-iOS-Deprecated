@@ -7,7 +7,7 @@ xcodebuild -project RedpacketLib.xcodeproj -target $bundle_target -configuration
 done
 
 file_copy_path="${BUILD_DIR}/${CONFIGURATION}-iphoneos/"
-file_copyTo_basePath="./Redpacket-UI-lib/"
+file_copyTo_basePath="../Redpacket-UI-lib/"
 
 i=0
 

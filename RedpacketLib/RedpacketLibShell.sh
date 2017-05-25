@@ -26,7 +26,7 @@ done
 i=0
 for bulid_target in ${build_targets[*]}
 do
-COPYTO_DIR="./Redpacket-UI-lib/lib"
+COPYTO_DIR="../Redpacket-UI-lib/lib"
 rm -rf $COPYTO_DIR
 mkdir -p $COPYTO_DIR
 
