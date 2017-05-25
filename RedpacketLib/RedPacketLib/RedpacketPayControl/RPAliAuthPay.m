@@ -30,7 +30,6 @@
 
 #define AlipayPaySuccess    9000
 #define AlipayPayUserCancel 6001
-#define AlipayPayResultUnKnow 8000
 
 @interface RPAliAuthPay ()
 {
