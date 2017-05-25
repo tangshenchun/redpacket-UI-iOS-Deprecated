@@ -77,11 +77,11 @@
         if (urlstr.length > 0) {
             
             [self.backgroundImageView rp_setImageWithURL:[NSURL URLWithString:urlstr]
-                                        placeholderImage:rpRedpacketBundleImage(@"redpacket_background")];
+                                        placeholderImage:rpRedpacketBundleImage(@"background_redpacket")];
             
         }else {
             
-            [self.backgroundImageView setImage:rpRedpacketBundleImage(@"redpacket_background")];
+            [self.backgroundImageView setImage:rpRedpacketBundleImage(@"background_redpacket")];
             
         }
         
@@ -97,7 +97,7 @@
         self.avatarImageView.layer.masksToBounds = YES;
         self.avatarImageView.layer.borderWidth = 5.0;
         self.avatarImageView.layer.borderColor = [RedpacketColorStore rp_textcolorYellow].CGColor;
-        [self.avatarImageView setImage:rpRedpacketBundleImage(@"redpacket_header")];
+        [self.avatarImageView setImage:rpRedpacketBundleImage(@"redpacket_header_default")];
         
         [self.avatarImageView rpm_makeConstraints:^(RPConstraintMaker *make) {
             make.top.equalTo(self.rpm_top).offset(RP_(@(52),@(66),@(66)).floatValue);
@@ -106,7 +106,7 @@
         }];
         
         self.closeButton = [self rp_addsubview:[UIButton class]];
-        [self.closeButton setImage:rpRedpacketBundleImage(@"payView_close_high") forState:UIControlStateNormal];
+        [self.closeButton setImage:rpRedpacketBundleImage(@"button_payView_close_high") forState:UIControlStateNormal];
         [self.closeButton addTarget:self action:@selector(closeAction:) forControlEvents:UIControlEventTouchUpInside];
         self.closeButton.rp_hitTestEdgeInsets = UIEdgeInsetsMake(-20, -20, -40, -40);
         
@@ -147,7 +147,7 @@
         _messageModel = messageModel;
         NSURL *headerUrl = [NSURL URLWithString:messageModel.sender.avatar];
         [self.avatarImageView rp_setImageWithURL:headerUrl
-                                placeholderImage:rpRedpacketBundleImage(@"redpacket_header")];
+                                placeholderImage:rpRedpacketBundleImage(@"redpacket_header_default")];
         self.avatarImageView.backgroundColor = [RedpacketColorStore rp_headBackGroundColor];
         
     }

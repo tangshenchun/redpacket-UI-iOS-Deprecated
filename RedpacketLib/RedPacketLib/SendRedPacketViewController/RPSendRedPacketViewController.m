@@ -156,8 +156,8 @@
 - (void)configViewStyle {
     self.view.backgroundColor = [RedpacketColorStore rp_backGroundColor];
     self.navigationController.navigationBar.tintColor      = [RedpacketColorStore rp_textcolorYellow];
-    self.navigationController.navigationBar.backIndicatorImage = rpRedpacketBundleImage(@"redpacket_navigationbar_return");
-    self.navigationController.navigationBar.backIndicatorTransitionMaskImage = rpRedpacketBundleImage(@"redpacket_navigationbar_return");
+    self.navigationController.navigationBar.backIndicatorImage = rpRedpacketBundleImage(@"navigationbar_back");
+    self.navigationController.navigationBar.backIndicatorTransitionMaskImage = rpRedpacketBundleImage(@"navigationbar_back");
 }
 
 - (void)clickButtonLeft {

@@ -64,7 +64,7 @@
 //成功的警告框
 - (YZHMBProgressHUD *)rp_showHudSuccessView:(NSString *)text
 {
-    UIImageView *imageView = [[UIImageView alloc] initWithImage:rpRedpacketBundleImage(@"redpacket_prompt_hudSuccess")];
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:rpRedpacketBundleImage(@"prompt_hudSuccess")];
     imageView.frame = CGRectMake(0, 0, 32, 32);
     
     return [self showMBHudView:text customerView:imageView removeAuto:YES];
@@ -74,7 +74,7 @@
 - (YZHMBProgressHUD *)rp_showHudErrorView:(NSString *)text
 {
 //    RPDebug(@"%@", rpRedpacketBundlePath);
-    UIImage *image = rpRedpacketBundleImage(@"redpacket_prompt_hudError");
+    UIImage *image = rpRedpacketBundleImage(@"prompt_hudError");
     UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
     imageView.frame = CGRectMake(0, 0, 32, 32);
     

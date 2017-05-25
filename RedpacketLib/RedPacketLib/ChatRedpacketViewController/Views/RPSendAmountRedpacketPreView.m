@@ -33,7 +33,7 @@ static NSInteger randNumber = 0;
 - (instancetype)init {
     self = [super init];
     if (self) {
-        [self.backgroundImageView setImage:rpRedpacketBundleImage(@"amount_bg")];
+        [self.backgroundImageView setImage:rpRedpacketBundleImage(@"background_amount")];
         self.convertButton = [self rp_addsubview:[UIButton class]];
         [self.convertButton setTitleColor:[RedpacketColorStore colorWithHexString:@"#9B3A32" alpha:1] forState:UIControlStateNormal];
         self.convertButton.titleLabel.font = [UIFont systemFontOfSize:15];
@@ -58,7 +58,7 @@ static NSInteger randNumber = 0;
         
         self.luckButton = [self rp_addsubview:[UIButton class]];
         [self.luckButton addTarget:self action:@selector(luck) forControlEvents:UIControlEventTouchUpInside];
-        [self.luckButton setImage:rpRedpacketBundleImage(@"amount_change") forState:UIControlStateNormal];
+        [self.luckButton setImage:rpRedpacketBundleImage(@"button_amount_change") forState:UIControlStateNormal];
         [self.luckButton setTitle:@"切换金额" forState:UIControlStateNormal];
         self.luckButton.imageEdgeInsets = UIEdgeInsetsMake(0, -10, 0, 0);
         [self.luckButton setTitleColor:[RedpacketColorStore rp_textcolorYellow] forState:UIControlStateNormal];

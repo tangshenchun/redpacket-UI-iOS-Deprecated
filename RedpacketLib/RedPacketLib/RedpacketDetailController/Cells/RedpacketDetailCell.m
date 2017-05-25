@@ -89,7 +89,7 @@
     NSString *imageUrl = brifUserInfo.userInfo.avatar;
     
     [self.headerImageView rp_setImageWithURL:[NSURL URLWithString:imageUrl]
-                            placeholderImage:rpRedpacketBundleImage(@"redpacket_header")];
+                            placeholderImage:rpRedpacketBundleImage(@"redpacket_header_default")];
     
     NSString *name = brifUserInfo.userInfo.userName;
     
