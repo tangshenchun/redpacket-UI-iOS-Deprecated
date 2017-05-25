@@ -83,7 +83,7 @@
     self.headImageView.contentMode = UIViewContentModeScaleAspectFill;
     self.headImageView.layer.cornerRadius = 57 / 2.0f;
     self.headImageView.layer.masksToBounds = YES;
-    [self.headImageView rp_setImageWithURL:[NSURL URLWithString:[RPRedpacketAliauth redpacketCurrentUser].avatar] placeholderImage:rpRedpacketBundleImage(@"redpacket_header")];
+    [self.headImageView rp_setImageWithURL:[NSURL URLWithString:[RPRedpacketAliauth redpacketCurrentUser].avatar] placeholderImage:rpRedpacketBundleImage(@"redpacket_header_default")];
     
     [self.themeDescribeLable rpm_makeConstraints:^(RPConstraintMaker *make) {
         make.top.equalTo(self.headImageView.rpm_bottom).offset(14);
@@ -171,7 +171,7 @@
     }];
     
     self.arrowView = [self rp_addsubview:[UIImageView class]];
-    self.arrowView.image = rpRedpacketBundleImage(@"redpacket_bluearrow");
+    self.arrowView.image = rpRedpacketBundleImage(@"alipay_name_bluearrow");
     [self.arrowView rpm_makeConstraints:^(RPConstraintMaker *make) {
         make.left.equalTo(self.removeBindingButton.rpm_right).offset(2);
         make.centerY.equalTo(self.removeBindingButton);

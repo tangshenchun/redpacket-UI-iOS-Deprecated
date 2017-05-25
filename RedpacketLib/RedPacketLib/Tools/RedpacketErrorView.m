@@ -42,7 +42,7 @@
         
         _submitButton = [UIButton buttonWithType:UIButtonTypeCustom];
         _submitButton.rp_size = CGSizeMake(109, 33);
-        [_submitButton setBackgroundImage:rpRedpacketBundleImage(@"hudView_button_error") forState:UIControlStateNormal];
+        [_submitButton setBackgroundImage:rpRedpacketBundleImage(@"button_retry") forState:UIControlStateNormal];
         [_submitButton addTarget:self action:@selector(submitButtonClicked) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:_submitButton];
     }

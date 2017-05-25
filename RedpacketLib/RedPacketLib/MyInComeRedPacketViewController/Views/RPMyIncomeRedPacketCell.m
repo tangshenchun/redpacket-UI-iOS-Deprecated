@@ -80,9 +80,9 @@
     self.moneyLabel.text = [NSString stringWithFormat:@"%@元",briefReceiveInfo.money];
     self.typeImageView.hidden = NO;
     if (briefReceiveInfo.type == RPRedpacketTypeGroupRand) {
-        [self.typeImageView setImage:rpRedpacketBundleImage(@"redPackert_luckCard")];
+        [self.typeImageView setImage:rpRedpacketBundleImage(@"redPackert_luck")];
     } else if (briefReceiveInfo.type == RPRedpacketTypeGoupMember) {
-        [self.typeImageView setImage:rpRedpacketBundleImage(@"redPackert_toSomebody")];
+        [self.typeImageView setImage:rpRedpacketBundleImage(@"redPackert_exclusive")];
     } else {
         self.typeImageView.hidden = YES;
     }

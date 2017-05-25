@@ -54,7 +54,7 @@
         
     }];
     
-    [backImageView setImage:rpRedpacketBundleImage(@"redpacket_RPRedpacketDetailHeaderView_header")];
+    [backImageView setImage:rpRedpacketBundleImage(@"redpacket_detail_header")];
 
     [self.headImageView rpm_makeConstraints:^(RPConstraintMaker *make) {
         
@@ -95,7 +95,7 @@
 {
     _messageModel = messageModel;
    
-    [self.headImageView rp_setImageWithURL:rpURL(messageModel.sender.avatar) placeholderImage:rpRedpacketBundleImage(@"redpacket_header")];
+    [self.headImageView rp_setImageWithURL:rpURL(messageModel.sender.avatar) placeholderImage:rpRedpacketBundleImage(@"redpacket_header_default")];
     self.detailLable.text = [NSString stringWithFormat:@"%@的红包",messageModel.sender.userName];
     self.greetingLable.text = messageModel.greeting;
     
@@ -129,12 +129,12 @@
     if (messageModel.redpacketType == RPRedpacketTypeGroupRand) {
         
         self.detailImageView.hidden = NO;
-        [self.detailImageView setImage:rpRedpacketBundleImage(@"redPackert_luckCard")];
+        [self.detailImageView setImage:rpRedpacketBundleImage(@"redPackert_luck")];
         
     }else if (messageModel.redpacketType == RPRedpacketTypeGoupMember){
         
         self.detailImageView.hidden = NO;
-        [self.detailImageView setImage:rpRedpacketBundleImage(@"redPackert_toSomebody")];
+        [self.detailImageView setImage:rpRedpacketBundleImage(@"redPackert_exclusive")];
         
     }else{
         
