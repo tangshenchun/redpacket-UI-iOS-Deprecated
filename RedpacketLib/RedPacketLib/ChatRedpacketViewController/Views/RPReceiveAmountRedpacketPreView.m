@@ -28,7 +28,7 @@
     
     if (self) {
         
-        [self.backgroundImageView setImage:rpRedpacketBundleImage(@"amount_bg")];
+        [self.backgroundImageView setImage:rpRedpacketBundleImage(@"background_amount")];
         self.nameLable = [self rp_addsubview:[UILabel class]];
         self.nameLable.font = [UIFont systemFontOfSize:13];
         self.nameLable.textAlignment = NSTextAlignmentCenter;

@@ -70,7 +70,7 @@
         self.changeDescribeTittleButton = [UIButton buttonWithType:UIButtonTypeCustom];
         self.changeDescribeTittleButton.translatesAutoresizingMaskIntoConstraints = NO;
         [self.changeDescribeTittleButton addTarget:self action:@selector(didTapChangeDescribeTittleButton:) forControlEvents:UIControlEventTouchUpInside];
-        [self.changeDescribeTittleButton setImage:rpRedpacketBundleImage(@"redpacket_redpacketSend_luckBless") forState:UIControlStateNormal];
+        [self.changeDescribeTittleButton setImage:rpRedpacketBundleImage(@"button_switch_greeting") forState:UIControlStateNormal];
         [self.contentView addSubview:self.changeDescribeTittleButton];
         NSLayoutConstraint * changDescribeButtonRightConstraint = [NSLayoutConstraint constraintWithItem:self.changeDescribeTittleButton
                                                                                                attribute:NSLayoutAttributeRight

@@ -95,8 +95,8 @@
     self.navigationController.navigationBar.barStyle       = UIBarStyleBlack;
     self.navigationController.navigationBar.translucent    = NO;
     self.navigationController.navigationBar.tintColor      = [RedpacketColorStore rp_textcolorYellow];
-    self.navigationController.navigationBar.backIndicatorImage = rpRedpacketBundleImage(@"redpacket_navigationbar_return");
-    self.navigationController.navigationBar.backIndicatorTransitionMaskImage = rpRedpacketBundleImage(@"redpacket_navigationbar_return");
+    self.navigationController.navigationBar.backIndicatorImage = rpRedpacketBundleImage(@"navigationbar_back");
+    self.navigationController.navigationBar.backIndicatorTransitionMaskImage = rpRedpacketBundleImage(@"navigationbar_back");
     self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor whiteColor],NSFontAttributeName : [UIFont systemFontOfSize:18]};
     self.view.backgroundColor = [RedpacketColorStore rp_backGroundColor];
 }

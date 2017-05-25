@@ -127,7 +127,7 @@
     [headView addSubview:backView];
     
     UIImageView *anybodyView = [[UIImageView alloc]initWithFrame:CGRectMake(18, 1.5, 41, 41)];
-    [anybodyView setImage:rpRedpacketBundleImage(@"redpacket_searchMemberVC_anyone")];
+    [anybodyView setImage:rpRedpacketBundleImage(@"group_header")];
     [backView addSubview:anybodyView];
     
     UILabel *anybodyLable = [[UILabel alloc]initWithFrame:CGRectMake(83, 15, headView.bounds.size.width, 16)];
@@ -281,7 +281,7 @@
     }
     
     cell.nameLabel.text = nikename;
-    [cell.headImageView rp_setImageWithURL:[NSURL URLWithString:userAvatar] placeholderImage:rpRedpacketBundleImage(@"redpacket_header")];
+    [cell.headImageView rp_setImageWithURL:[NSURL URLWithString:userAvatar] placeholderImage:rpRedpacketBundleImage(@"redpacket_header_default")];
     
     return cell;
 }

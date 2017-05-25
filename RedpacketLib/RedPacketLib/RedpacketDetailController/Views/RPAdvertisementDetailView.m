@@ -97,7 +97,7 @@
         [self.shareButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [self.shareButton addTarget:self action:@selector(shareAction) forControlEvents:UIControlEventTouchUpInside];
         [self.shareButton setBackgroundColor:[UIColor colorWithRed:210/255.0 green:79/255.0 blue:68/255.0 alpha:1]];
-        [self.shareButton setImage:rpRedpacketBundleImage(@"adverisement_share") forState:UIControlStateNormal];
+        [self.shareButton setImage:rpRedpacketBundleImage(@"button_share") forState:UIControlStateNormal];
         
         NSLayoutConstraint * shareButtonBottomConstraint = [NSLayoutConstraint constraintWithItem:self.shareButton attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:self.sendButton attribute:NSLayoutAttributeBottom multiplier:1 constant:0];
         NSLayoutConstraint * shareButtonLeftConstraint = [NSLayoutConstraint constraintWithItem:self.shareButton attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeCenterX multiplier:1 constant:10];

@@ -21,7 +21,7 @@
     
     if (self) {
         
-        [self.avatarImageView setImage:rpRedpacketBundleImage(@"redpacket_RPMemberRedpacketPreView_logo")];
+        [self.avatarImageView setImage:rpRedpacketBundleImage(@"identifying_exclusive")];
         
         self.receiveHeadImageView = [self rp_addsubview:[UIImageView class]];
         self.receiveHeadImageView.contentMode = UIViewContentModeScaleAspectFill;
@@ -165,10 +165,10 @@
     
     NSURL *receiveheaderUrl = [NSURL URLWithString:messageModel.receiver.avatar];
     
-    [self.receiveHeadImageView rp_setImageWithURL:receiveheaderUrl placeholderImage:rpRedpacketBundleImage(@"redpacket_header")];
+    [self.receiveHeadImageView rp_setImageWithURL:receiveheaderUrl placeholderImage:rpRedpacketBundleImage(@"redpacket_header_default")];
     
     NSURL *sendheaderUrl = [NSURL URLWithString:messageModel.sender.avatar];
-    [self.senderHeadImageView rp_setImageWithURL:sendheaderUrl placeholderImage:rpRedpacketBundleImage(@"redpacket_header")];
+    [self.senderHeadImageView rp_setImageWithURL:sendheaderUrl placeholderImage:rpRedpacketBundleImage(@"redpacket_header_default")];
     
     self.greetingLable.text = messageModel.greeting;
     self.moneyLable.text = [NSString stringWithFormat: @"￥%@",messageModel.money];
