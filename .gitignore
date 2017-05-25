@@ -5,6 +5,7 @@
 ## Build generated
 build/
 DerivedData/
+Redpacket-UI-lib/
 
 ## Various settings
 *.pbxuser
