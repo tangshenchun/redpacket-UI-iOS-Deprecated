@@ -10,20 +10,20 @@
 #import "RPRedpacketModel.h"
 #import "RPPersonalRedpacketInfo.h"
 
-// 注意
-// 使用前，请先参考API文档
+/// 注意
+/// 使用前，请先参考API文档
 
 
-// 返回操作是否成功， 如果error为空则成功，反之失败
+/// 返回操作是否成功， 如果error为空则成功，反之失败
 typedef void (^RPProcessResultBlock)(NSError *error);
 
-// 返回结果只有一个字符串
+/// 返回结果只有一个字符串
 typedef void (^RPProcessResultStringBlock)(NSError *error, NSString *string);
 
-// 返回生成红包、查询红包详情和抢红包时的红包数据
+/// 返回生成红包、查询红包详情和抢红包时的红包数据
 typedef void(^RPProcessResultObjectBlock)(NSError *error, RPRedpacketModel *model);
 
-// 返回我的红包收发记录
+/// 返回我的红包收发记录
 typedef NS_ENUM(NSInteger, RPPersonalRedpacketType) {
     
     RPPersonalRedpacketTypeSend,        /** 我发送的红包信息*/
@@ -31,7 +31,7 @@ typedef NS_ENUM(NSInteger, RPPersonalRedpacketType) {
     
 };
 
-// 查询收发红包详情后的回调
+/// 查询收发红包详情后的回调
 typedef void(^fetchFinishBlock)(NSError *error, RPPersonalRedpacketInfo *);
 
 
@@ -39,18 +39,18 @@ typedef void(^fetchFinishBlock)(NSError *error, RPPersonalRedpacketInfo *);
 
 + (RPUserInfo *)redpacketCurrentUser;
 
-// 获取支付宝授权时需要的签名, string为sign
+/// 获取支付宝授权时需要的签名, string为sign
 + (void)requestAliAuthSign:(RPProcessResultStringBlock)block;
 
-// 上传支付宝授权信息, 成功后触发block error为nil，失败后block返回error
+/// 上传支付宝授权信息, 成功后触发block error为nil，失败后block返回error
 + (void)uploadAliAuthInfo:(NSString *)authCode
                    userID:(NSString *)userID
           andRequsetBlock:(RPProcessResultBlock)block;
 
-//  查询支付宝绑定信息, 返回绑定的用户名
+///  查询支付宝绑定信息, 返回绑定的用户名
 + (void)fetchAliAuthBindInfo:(RPProcessResultStringBlock)block;
 
-//  解绑支付宝
+///  解绑支付宝
 + (void)unBindAliAuth:(RPProcessResultBlock)block;
 
 @end
@@ -58,15 +58,15 @@ typedef void(^fetchFinishBlock)(NSError *error, RPPersonalRedpacketInfo *);
 
 @interface RPRedpacketSender : NSObject
 
-// 生成红包ID
+/// 生成红包ID
 + (void)generateRedpacketID:(RPProcessResultStringBlock)block;
 
-// 生成支付宝付款时所需要的订单信息， 返回的string为支付宝订单， 通过string去调用支付宝支付
+/// 生成支付宝付款时所需要的订单信息， 返回的string为支付宝订单， 通过string去调用支付宝支付
 + (void)generateRedpacketPayOrder:(NSString *)sendMoney
                     generateBlock:(RPProcessResultStringBlock)block;
 
-// 发送红包
-// model的生成是通过【RPRedpacketModel】类里边生成红包model的方法
+/// 发送红包
+/// model的生成是通过【RPRedpacketModel】类里边生成红包model的方法
 + (void)sendRedpacket:(RPRedpacketModel *)model
          andSendBlock:(RPProcessResultObjectBlock)block;
 
@@ -75,7 +75,7 @@ typedef void(^fetchFinishBlock)(NSError *error, RPPersonalRedpacketInfo *);
 
 @interface RPRedpacketReceiver : NSObject
 
-// 查询红包状态
+/// 查询红包状态
 + (void)fetchRedpacketStatus:(RPRedpacketModel *)model
                andFetchBlock:(RPProcessResultObjectBlock)block;
 
@@ -122,6 +122,21 @@ typedef void(^fetchFinishBlock)(NSError *error, RPPersonalRedpacketInfo *);
                    fromPersonalInfo:(RPPersonalRedpacketInfo *)personalInfo
                              legnth:(NSInteger)length
                      andFinishBlock:(fetchFinishBlock)block;
+
+@end
+
+
+@interface RPRedpacketAdverAnalysis : NSObject
+
+/// 广告红包被打开的事件
++ (void)redpacketAdverOpenEventWithRedpacketID:(NSString *)redpacketID;
+
+/// 广告红包详情被查看的事件
++ (void)redpacketAdverViewDetailEventWithRedapcketID:(NSString *)redpacketID;
+
+/// 根据事件和红包ID进行统计
++ (void)redpacketEvent:(NSString *)event andRedpacketID:(NSString *)redpacketID;
+
 
 @end
 
