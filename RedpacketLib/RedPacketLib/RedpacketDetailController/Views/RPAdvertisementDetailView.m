@@ -11,7 +11,7 @@
 #import "RedpacketColorStore.h"
 #import "RPRedpacketTool.h"
 #import "UIAlertView+YZHAlert.h"
-
+#import "RPRedpacketManager.h"
 
 
 @interface RPAdvertisementActionbView : UIView <UIAlertViewDelegate>
@@ -440,7 +440,7 @@
                                    completed:^(UIImage *image, NSError *error, YZHSDImageCacheType cacheType, NSURL *imageURL) {
         
         if (image && !error) {
-//FixNEW            [[RedpacketDataRequester alloc]analysisADDataWithADName:@"rp.hb.ad.view_ad" andADID:detailModel.rpID];
+            [RPRedpacketAdverAnalysis redpacketAdverViewDetailEventWithRedapcketID:detailModel.redpacketID];
         }
         
     }];
