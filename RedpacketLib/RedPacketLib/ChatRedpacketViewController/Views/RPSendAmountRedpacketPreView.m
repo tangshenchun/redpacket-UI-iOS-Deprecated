@@ -60,6 +60,7 @@ static NSInteger randNumber = 0;
         [self.luckButton addTarget:self action:@selector(luck) forControlEvents:UIControlEventTouchUpInside];
         [self.luckButton setImage:rpRedpacketBundleImage(@"amount_change") forState:UIControlStateNormal];
         [self.luckButton setTitle:@"切换金额" forState:UIControlStateNormal];
+        self.luckButton.imageEdgeInsets = UIEdgeInsetsMake(0, -10, 0, 0);
         [self.luckButton setTitleColor:[RedpacketColorStore rp_textcolorYellow] forState:UIControlStateNormal];
         [self.luckButton rpm_makeConstraints:^(RPConstraintMaker *make) {
             make.bottom.equalTo(self.submitButton.rpm_top).offset(RP_(@(-32),@(-34),@(-44)).floatValue);

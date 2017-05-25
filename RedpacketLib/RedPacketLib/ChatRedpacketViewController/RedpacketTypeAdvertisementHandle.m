@@ -13,6 +13,8 @@
 - (void)getRedpacketDetail {
     [super getRedpacketDetail];
     [self showRedPacketDetailViewController:self.messageModel];
+    //fixnew
+    //[[RedpacketDataRequester alloc]analysisADDataWithADName:@"rp.hb.ad.open_hb" andADID:model.rpID];
 }
 
 @end

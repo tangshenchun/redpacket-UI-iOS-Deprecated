@@ -30,6 +30,7 @@
 
 #define AlipayPaySuccess    9000
 #define AlipayPayUserCancel 6001
+#define AlipayPayResultUnKnow 8000
 
 @interface RPAliAuthPay ()
 {
@@ -101,7 +102,7 @@
         } else {
             
             [weakSelf requestAlipayView:string withController:viewController];
-            [self performSelector:@selector(delayViewContro:) withObject:viewController afterDelay:2.0];
+            [self performSelector:@selector(delayViewController:) withObject:viewController afterDelay:2.0];
         }
 
     }];
@@ -247,7 +248,7 @@
 }
 
 
-- (void)delayViewContro:(UIViewController *)viewController
+- (void)delayViewController:(UIViewController *)viewController
 {
     [viewController.view rp_removeHudInManaual];
 }

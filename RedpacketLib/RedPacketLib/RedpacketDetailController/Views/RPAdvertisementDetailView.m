@@ -145,9 +145,8 @@
         case RPRedpacketStatusTypeGrabFinish:
             
             if (self.detailModel.receiveMoney.floatValue > 0) {
-                
                 self.moneyLable.hidden = NO;
-                [self.moneyLable setText:[NSString stringWithFormat:@"¥%@",self.detailModel.money]];
+                [self.moneyLable setText:[NSString stringWithFormat:@"¥%@",self.detailModel.receiveMoney]];
                 [self configSubTitleLableLayout:!self.detailModel.adverInfo.shareURLString.length];
                 
                 if (self.detailModel.adverInfo.shareURLString.length > 0) {
