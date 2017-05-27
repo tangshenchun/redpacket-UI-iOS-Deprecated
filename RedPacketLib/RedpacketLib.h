@@ -11,18 +11,10 @@
 
 #import <Foundation/Foundation.h>
 
-#if TARGET_OS_IPHONE
-
 #import "RPRedpacketBridge.h"
 #import "RPRedpacketModel.h"
 #import "RedpacketViewControl.h"
-
-#else
-
-#import <RedpacketLib/RPRedpacketBridge.h>
-#import <RedpacketLib/RPRedpacketModel.h>
-#import <RedpacketLib/RedpacketViewControl.h>
-
-#endif
+#import "RPUserInfo.h"
+#import "RPAdvertInfo.h"
 
 #endif /* RedpacketLib_h */
