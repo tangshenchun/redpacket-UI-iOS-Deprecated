@@ -6,6 +6,10 @@ target 'RedpacketAliAuthUILib' do
   # use_frameworks!
 
   # Pods for RedpacketAliAuthUILib
+<<<<<<< HEAD
   pod 'RedpacketAliAuthAPILib'
+=======
+  pod 'RedpacketAliAuthAPILib', :path=>'~/Developer/cocoapods/cocoapods-redpacket-api/'
+>>>>>>> c26632877038a2175cbad10d9cbf327d466ff8c1
 
 end

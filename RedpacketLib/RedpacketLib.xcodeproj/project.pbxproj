@@ -21,7 +21,50 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		03B9A9701D1166AC9E2957CF /* libPods-RedpacketAliAuthUILib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ACAA1F6A2F7470202B0B6F4 /* libPods-RedpacketAliAuthUILib.a */; };
+=======
+		13874B8E873DA5A3EC927759 /* libPods-RedpacketAliAuthUILib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F830E63BFF7BA47D6F8E397 /* libPods-RedpacketAliAuthUILib.a */; };
+		922B16231ED680D100C7017A /* adverisement_receive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B15F31ED6808400C7017A /* adverisement_receive@2x.png */; };
+		922B16241ED680D100C7017A /* adverisement_receive@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B15F41ED6808400C7017A /* adverisement_receive@3x.png */; };
+		922B16251ED680D100C7017A /* button_share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B15F51ED6808400C7017A /* button_share@2x.png */; };
+		922B16261ED680D100C7017A /* button_share@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B15F61ED6808400C7017A /* button_share@3x.png */; };
+		922B16271ED680D100C7017A /* background_amount@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B15F71ED6808400C7017A /* background_amount@2x.png */; };
+		922B16281ED680D100C7017A /* button_amount_change@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B15F81ED6808400C7017A /* button_amount_change@2x.png */; };
+		922B16291ED680D100C7017A /* button_blue_disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B15F91ED6808400C7017A /* button_blue_disable@2x.png */; };
+		922B162A1ED680D100C7017A /* button_blue_high@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B15FA1ED6808400C7017A /* button_blue_high@2x.png */; };
+		922B162B1ED680D100C7017A /* button_blue_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B15FB1ED6808400C7017A /* button_blue_normal@2x.png */; };
+		922B162C1ED680D100C7017A /* button_red_disabel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B15FC1ED6808400C7017A /* button_red_disabel@2x.png */; };
+		922B162D1ED680D100C7017A /* button_red_high@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B15FD1ED6808400C7017A /* button_red_high@2x.png */; };
+		922B162E1ED680D100C7017A /* button_red_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B15FE1ED6808400C7017A /* button_red_normal@2x.png */; };
+		922B162F1ED680D100C7017A /* button_retry@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B15FF1ED6808400C7017A /* button_retry@2x.png */; };
+		922B16301ED680D100C7017A /* hudView_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B16001ED6808400C7017A /* hudView_error@2x.png */; };
+		922B16311ED680D100C7017A /* payView_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B16011ED6808400C7017A /* payView_arrow@2x.png */; };
+		922B16331ED680D100C7017A /* button_payView_close_high@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B16031ED6808400C7017A /* button_payView_close_high@2x.png */; };
+		922B16341ED680D100C7017A /* redPackert_luck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B16041ED6808400C7017A /* redPackert_luck@2x.png */; };
+		922B16351ED680D100C7017A /* redPackert_exclusive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B16051ED6808400C7017A /* redPackert_exclusive@2x.png */; };
+		922B16361ED680D100C7017A /* background_redpacket@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B16061ED6808400C7017A /* background_redpacket@2x.png */; };
+		922B16371ED680D100C7017A /* alipay_name_bluearrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B16071ED6808400C7017A /* alipay_name_bluearrow@2x.png */; };
+		922B16381ED680D100C7017A /* alipay_name_bluearrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B16081ED6808400C7017A /* alipay_name_bluearrow@3x.png */; };
+		922B163A1ED680D100C7017A /* redpacket_header_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B160A1ED6808400C7017A /* redpacket_header_default@2x.png */; };
+		922B163C1ED680D100C7017A /* redpacket_luckyBest@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B160C1ED6808400C7017A /* redpacket_luckyBest@2x.png */; };
+		922B163E1ED680D100C7017A /* navigationbar_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B160E1ED6808400C7017A /* navigationbar_back@2x.png */; };
+		922B163F1ED680D100C7017A /* navigationbar_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B160F1ED6808400C7017A /* navigationbar_back@3x.png */; };
+		922B16401ED680D100C7017A /* prompt_hudError@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B16101ED6808400C7017A /* prompt_hudError@2x.png */; };
+		922B16411ED680D100C7017A /* prompt_hudSuccess@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B16111ED6808400C7017A /* prompt_hudSuccess@2x.png */; };
+		922B16421ED680D100C7017A /* button_switch_greeting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B16121ED6808400C7017A /* button_switch_greeting@2x.png */; };
+		922B16431ED680D100C7017A /* identifying_exclusive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B16131ED6808400C7017A /* identifying_exclusive@2x.png */; };
+		922B16441ED680D100C7017A /* identifying_exclusive@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B16141ED6808400C7017A /* identifying_exclusive@3x.png */; };
+		922B16451ED680D100C7017A /* redpacket_detail_header@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B16151ED6808400C7017A /* redpacket_detail_header@2x.png */; };
+		922B16461ED680D100C7017A /* redpacket_detail_header@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B16161ED6808400C7017A /* redpacket_detail_header@3x.png */; };
+		922B16471ED680D100C7017A /* group_header@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 922B16171ED6808400C7017A /* group_header@2x.png */; };
+		922B16481ED680D100C7017A /* redpacket_sound_open.wav in Resources */ = {isa = PBXBuildFile; fileRef = 922B16181ED6808400C7017A /* redpacket_sound_open.wav */; };
+		922B18991ED824A200C7017A /* libRedpacketAliAuthAPILib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 922B188E1ED824A200C7017A /* libRedpacketAliAuthAPILib.a */; };
+		922B189A1ED824AD00C7017A /* RPRedpacketBridge.h in RedpacketExport */ = {isa = PBXBuildFile; fileRef = 922B18941ED824A200C7017A /* RPRedpacketBridge.h */; };
+		922B189C1ED824B500C7017A /* RPRedpacketModel.h in RedpacketExport */ = {isa = PBXBuildFile; fileRef = 922B18921ED824A200C7017A /* RPRedpacketModel.h */; };
+		922B189D1ED824D400C7017A /* RPAdvertInfo.h in RedpacketExport */ = {isa = PBXBuildFile; fileRef = 922B18901ED824A200C7017A /* RPAdvertInfo.h */; };
+		922B189E1ED8250400C7017A /* RPUserInfo.h in RedpacketExport */ = {isa = PBXBuildFile; fileRef = 922B18931ED824A200C7017A /* RPUserInfo.h */; };
+>>>>>>> c26632877038a2175cbad10d9cbf327d466ff8c1
 		9264098C1E0A2A2200DE4DDF /* YZHPinyinHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CB944A1D06793700207CA8 /* YZHPinyinHelper.m */; };
 		9264098E1E0A2A2200DE4DDF /* UIImageView+YZHWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 920CA1811C98424100D0CCC3 /* UIImageView+YZHWebCache.m */; };
 		9264098F1E0A2A2200DE4DDF /* RedpacketDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E96C491DACC4DB00CFF840 /* RedpacketDetailCell.m */; };
@@ -148,6 +191,10 @@
 			dstSubfolderSpec = 0;
 			files = (
 				92640A221E0A2A2200DE4DDF /* RedpacketViewControl.h in RedpacketExport */,
+				922B189C1ED824B500C7017A /* RPRedpacketModel.h in RedpacketExport */,
+				922B189A1ED824AD00C7017A /* RPRedpacketBridge.h in RedpacketExport */,
+				922B189D1ED824D400C7017A /* RPAdvertInfo.h in RedpacketExport */,
+				922B189E1ED8250400C7017A /* RPUserInfo.h in RedpacketExport */,
 			);
 			name = RedpacketExport;
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,9 +202,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		20509DEB14C46890460997E6 /* libPods-RedpacketAliAuthUIBundle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RedpacketAliAuthUIBundle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ACAA1F6A2F7470202B0B6F4 /* libPods-RedpacketAliAuthUILib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RedpacketAliAuthUILib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B5F3A9AA0E5CB26265FBAEC /* Pods-RedpacketAliAuthUILib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedpacketAliAuthUILib.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedpacketAliAuthUILib/Pods-RedpacketAliAuthUILib.release.xcconfig"; sourceTree = "<group>"; };
+=======
+		3F830E63BFF7BA47D6F8E397 /* libPods-RedpacketAliAuthUILib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RedpacketAliAuthUILib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74738F322561ABC95D03965E /* Pods-RedpacketAliAuthUILib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedpacketAliAuthUILib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedpacketAliAuthUILib/Pods-RedpacketAliAuthUILib.debug.xcconfig"; sourceTree = "<group>"; };
+>>>>>>> c26632877038a2175cbad10d9cbf327d466ff8c1
 		8432794D1DC2FCAB0012BBF1 /* RPRedpacketDetailHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPRedpacketDetailHeaderView.h; sourceTree = "<group>"; };
 		8432794E1DC2FCAB0012BBF1 /* RPRedpacketDetailHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPRedpacketDetailHeaderView.m; sourceTree = "<group>"; };
 		845152241DBDB256005C1A0D /* SeachMemberCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeachMemberCell.h; sourceTree = "<group>"; };
@@ -277,7 +329,56 @@
 		920E678E1DB46FC600ADECCA /* RPRedpacketSendControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPRedpacketSendControl.m; sourceTree = "<group>"; };
 		922417441D64106C00518719 /* RPRedpacketTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPRedpacketTool.h; sourceTree = "<group>"; };
 		922417451D64106C00518719 /* RPRedpacketTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPRedpacketTool.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		922B16791ED7DE5100C7017A /* libRedpacketAliAuthAPILib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRedpacketAliAuthAPILib.a; path = "../../cocoapods/cocoapods-redpacket-api/RedpacketAliAuthAPILib/lib/libRedpacketAliAuthAPILib.a"; sourceTree = "<group>"; };
+=======
+		922B15F31ED6808400C7017A /* adverisement_receive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "adverisement_receive@2x.png"; sourceTree = "<group>"; };
+		922B15F41ED6808400C7017A /* adverisement_receive@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "adverisement_receive@3x.png"; sourceTree = "<group>"; };
+		922B15F51ED6808400C7017A /* button_share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_share@2x.png"; sourceTree = "<group>"; };
+		922B15F61ED6808400C7017A /* button_share@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_share@3x.png"; sourceTree = "<group>"; };
+		922B15F71ED6808400C7017A /* background_amount@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background_amount@2x.png"; sourceTree = "<group>"; };
+		922B15F81ED6808400C7017A /* button_amount_change@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_amount_change@2x.png"; sourceTree = "<group>"; };
+		922B15F91ED6808400C7017A /* button_blue_disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_blue_disable@2x.png"; sourceTree = "<group>"; };
+		922B15FA1ED6808400C7017A /* button_blue_high@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_blue_high@2x.png"; sourceTree = "<group>"; };
+		922B15FB1ED6808400C7017A /* button_blue_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_blue_normal@2x.png"; sourceTree = "<group>"; };
+		922B15FC1ED6808400C7017A /* button_red_disabel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_red_disabel@2x.png"; sourceTree = "<group>"; };
+		922B15FD1ED6808400C7017A /* button_red_high@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_red_high@2x.png"; sourceTree = "<group>"; };
+		922B15FE1ED6808400C7017A /* button_red_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_red_normal@2x.png"; sourceTree = "<group>"; };
+		922B15FF1ED6808400C7017A /* button_retry@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_retry@2x.png"; sourceTree = "<group>"; };
+		922B16001ED6808400C7017A /* hudView_error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hudView_error@2x.png"; sourceTree = "<group>"; };
+		922B16011ED6808400C7017A /* payView_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "payView_arrow@2x.png"; sourceTree = "<group>"; };
+		922B16031ED6808400C7017A /* button_payView_close_high@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_payView_close_high@2x.png"; sourceTree = "<group>"; };
+		922B16041ED6808400C7017A /* redPackert_luck@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "redPackert_luck@2x.png"; sourceTree = "<group>"; };
+		922B16051ED6808400C7017A /* redPackert_exclusive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "redPackert_exclusive@2x.png"; sourceTree = "<group>"; };
+		922B16061ED6808400C7017A /* background_redpacket@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background_redpacket@2x.png"; sourceTree = "<group>"; };
+		922B16071ED6808400C7017A /* alipay_name_bluearrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alipay_name_bluearrow@2x.png"; sourceTree = "<group>"; };
+		922B16081ED6808400C7017A /* alipay_name_bluearrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alipay_name_bluearrow@3x.png"; sourceTree = "<group>"; };
+		922B160A1ED6808400C7017A /* redpacket_header_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "redpacket_header_default@2x.png"; sourceTree = "<group>"; };
+		922B160C1ED6808400C7017A /* redpacket_luckyBest@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "redpacket_luckyBest@2x.png"; sourceTree = "<group>"; };
+		922B160E1ED6808400C7017A /* navigationbar_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationbar_back@2x.png"; sourceTree = "<group>"; };
+		922B160F1ED6808400C7017A /* navigationbar_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationbar_back@3x.png"; sourceTree = "<group>"; };
+		922B16101ED6808400C7017A /* prompt_hudError@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "prompt_hudError@2x.png"; sourceTree = "<group>"; };
+		922B16111ED6808400C7017A /* prompt_hudSuccess@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "prompt_hudSuccess@2x.png"; sourceTree = "<group>"; };
+		922B16121ED6808400C7017A /* button_switch_greeting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_switch_greeting@2x.png"; sourceTree = "<group>"; };
+		922B16131ED6808400C7017A /* identifying_exclusive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "identifying_exclusive@2x.png"; sourceTree = "<group>"; };
+		922B16141ED6808400C7017A /* identifying_exclusive@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "identifying_exclusive@3x.png"; sourceTree = "<group>"; };
+		922B16151ED6808400C7017A /* redpacket_detail_header@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "redpacket_detail_header@2x.png"; sourceTree = "<group>"; };
+		922B16161ED6808400C7017A /* redpacket_detail_header@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "redpacket_detail_header@3x.png"; sourceTree = "<group>"; };
+		922B16171ED6808400C7017A /* group_header@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "group_header@2x.png"; sourceTree = "<group>"; };
+		922B16181ED6808400C7017A /* redpacket_sound_open.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = redpacket_sound_open.wav; sourceTree = "<group>"; };
+		922B161D1ED680AD00C7017A /* RedpacketAliAuthUIBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedpacketAliAuthUIBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		922B16791ED7DE5100C7017A /* libRedpacketAliAuthAPILib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRedpacketAliAuthAPILib.a; path = "../../cocoapods/cocoapods-redpacket-api/RedpacketAliAuthAPILib/lib/libRedpacketAliAuthAPILib.a"; sourceTree = "<group>"; };
+		922B188E1ED824A200C7017A /* libRedpacketAliAuthAPILib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRedpacketAliAuthAPILib.a; sourceTree = "<group>"; };
+		922B18901ED824A200C7017A /* RPAdvertInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPAdvertInfo.h; sourceTree = "<group>"; };
+		922B18911ED824A200C7017A /* RPPersonalRedpacketInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPPersonalRedpacketInfo.h; sourceTree = "<group>"; };
+		922B18921ED824A200C7017A /* RPRedpacketModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPRedpacketModel.h; sourceTree = "<group>"; };
+		922B18931ED824A200C7017A /* RPUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPUserInfo.h; sourceTree = "<group>"; };
+		922B18941ED824A200C7017A /* RPRedpacketBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPRedpacketBridge.h; sourceTree = "<group>"; };
+		922B18951ED824A200C7017A /* RPRedpacketErrorCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPRedpacketErrorCode.h; sourceTree = "<group>"; };
+		922B18961ED824A200C7017A /* RPRedpacketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPRedpacketManager.h; sourceTree = "<group>"; };
+		922B18971ED824A200C7017A /* RPRedpacketSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPRedpacketSetting.h; sourceTree = "<group>"; };
+		922B18981ED824A200C7017A /* RPRedpacketUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPRedpacketUser.h; sourceTree = "<group>"; };
+>>>>>>> c26632877038a2175cbad10d9cbf327d466ff8c1
 		9233D35A1D59A96700C2ED5C /* RPRedpacketViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPRedpacketViews.h; sourceTree = "<group>"; };
 		9233D35B1D59A96700C2ED5C /* RPRedpacketViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPRedpacketViews.m; sourceTree = "<group>"; };
 		9259DA7A1CE46402004F83C6 /* RedpacketErrorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedpacketErrorView.h; sourceTree = "<group>"; };
@@ -401,6 +502,7 @@
 		E7FE6B1A1DBE1D7F00CB6C0B /* NSArray+RPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+RPAdditions.m"; path = "Layout/NSArray+RPAdditions.m"; sourceTree = "<group>"; };
 		E7FE6B1E1DBE1D7F00CB6C0B /* View+RPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "View+RPAdditions.h"; path = "Layout/View+RPAdditions.h"; sourceTree = "<group>"; };
 		E7FE6B1F1DBE1D7F00CB6C0B /* View+RPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "View+RPAdditions.m"; path = "Layout/View+RPAdditions.m"; sourceTree = "<group>"; };
+		EDBD65293AB7D13184868188 /* Pods-RedpacketAliAuthUILib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedpacketAliAuthUILib.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedpacketAliAuthUILib/Pods-RedpacketAliAuthUILib.release.xcconfig"; sourceTree = "<group>"; };
 		FCB9772C1D05162E00495858 /* RedpacketColorStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedpacketColorStore.h; sourceTree = "<group>"; };
 		FCB9772D1D05162E00495858 /* RedpacketColorStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedpacketColorStore.m; sourceTree = "<group>"; };
 		FD09905645FA649C0B775461 /* Pods-RedpacketAliAuthUILib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedpacketAliAuthUILib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedpacketAliAuthUILib/Pods-RedpacketAliAuthUILib.debug.xcconfig"; sourceTree = "<group>"; };
@@ -411,7 +513,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				03B9A9701D1166AC9E2957CF /* libPods-RedpacketAliAuthUILib.a in Frameworks */,
+=======
+				922B18991ED824A200C7017A /* libRedpacketAliAuthAPILib.a in Frameworks */,
+				13874B8E873DA5A3EC927759 /* libPods-RedpacketAliAuthUILib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26F42A0C690C04C29E35284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+>>>>>>> c26632877038a2175cbad10d9cbf327d466ff8c1
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -833,6 +947,91 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+=======
+		922B15F11ED6808400C7017A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				922B15F21ED6808400C7017A /* RPAliAuthPayBundle */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		922B15F21ED6808400C7017A /* RPAliAuthPayBundle */ = {
+			isa = PBXGroup;
+			children = (
+				922B15F31ED6808400C7017A /* adverisement_receive@2x.png */,
+				922B15F41ED6808400C7017A /* adverisement_receive@3x.png */,
+				922B15F51ED6808400C7017A /* button_share@2x.png */,
+				922B15F61ED6808400C7017A /* button_share@3x.png */,
+				922B15F71ED6808400C7017A /* background_amount@2x.png */,
+				922B15F81ED6808400C7017A /* button_amount_change@2x.png */,
+				922B15F91ED6808400C7017A /* button_blue_disable@2x.png */,
+				922B15FA1ED6808400C7017A /* button_blue_high@2x.png */,
+				922B15FB1ED6808400C7017A /* button_blue_normal@2x.png */,
+				922B15FC1ED6808400C7017A /* button_red_disabel@2x.png */,
+				922B15FD1ED6808400C7017A /* button_red_high@2x.png */,
+				922B15FE1ED6808400C7017A /* button_red_normal@2x.png */,
+				922B15FF1ED6808400C7017A /* button_retry@2x.png */,
+				922B16001ED6808400C7017A /* hudView_error@2x.png */,
+				922B16011ED6808400C7017A /* payView_arrow@2x.png */,
+				922B16031ED6808400C7017A /* button_payView_close_high@2x.png */,
+				922B16041ED6808400C7017A /* redPackert_luck@2x.png */,
+				922B16051ED6808400C7017A /* redPackert_exclusive@2x.png */,
+				922B16061ED6808400C7017A /* background_redpacket@2x.png */,
+				922B16071ED6808400C7017A /* alipay_name_bluearrow@2x.png */,
+				922B16081ED6808400C7017A /* alipay_name_bluearrow@3x.png */,
+				922B160A1ED6808400C7017A /* redpacket_header_default@2x.png */,
+				922B160C1ED6808400C7017A /* redpacket_luckyBest@2x.png */,
+				922B160E1ED6808400C7017A /* navigationbar_back@2x.png */,
+				922B160F1ED6808400C7017A /* navigationbar_back@3x.png */,
+				922B16101ED6808400C7017A /* prompt_hudError@2x.png */,
+				922B16111ED6808400C7017A /* prompt_hudSuccess@2x.png */,
+				922B16121ED6808400C7017A /* button_switch_greeting@2x.png */,
+				922B16131ED6808400C7017A /* identifying_exclusive@2x.png */,
+				922B16141ED6808400C7017A /* identifying_exclusive@3x.png */,
+				922B16151ED6808400C7017A /* redpacket_detail_header@2x.png */,
+				922B16161ED6808400C7017A /* redpacket_detail_header@3x.png */,
+				922B16171ED6808400C7017A /* group_header@2x.png */,
+				922B16181ED6808400C7017A /* redpacket_sound_open.wav */,
+			);
+			path = RPAliAuthPayBundle;
+			sourceTree = "<group>";
+		};
+		922B188C1ED824A200C7017A /* RedpacketAliAuthAPILib */ = {
+			isa = PBXGroup;
+			children = (
+				922B188D1ED824A200C7017A /* lib */,
+				922B188F1ED824A200C7017A /* Model */,
+				922B18941ED824A200C7017A /* RPRedpacketBridge.h */,
+				922B18951ED824A200C7017A /* RPRedpacketErrorCode.h */,
+				922B18961ED824A200C7017A /* RPRedpacketManager.h */,
+				922B18971ED824A200C7017A /* RPRedpacketSetting.h */,
+				922B18981ED824A200C7017A /* RPRedpacketUser.h */,
+			);
+			path = RedpacketAliAuthAPILib;
+			sourceTree = "<group>";
+		};
+		922B188D1ED824A200C7017A /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				922B188E1ED824A200C7017A /* libRedpacketAliAuthAPILib.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		922B188F1ED824A200C7017A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				922B18901ED824A200C7017A /* RPAdvertInfo.h */,
+				922B18911ED824A200C7017A /* RPPersonalRedpacketInfo.h */,
+				922B18921ED824A200C7017A /* RPRedpacketModel.h */,
+				922B18931ED824A200C7017A /* RPUserInfo.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+>>>>>>> c26632877038a2175cbad10d9cbf327d466ff8c1
 		9233D3551D5866CF00C2ED5C /* RPRedpacketSender */ = {
 			isa = PBXGroup;
 			children = (
@@ -892,8 +1091,12 @@
 			children = (
 				922B16791ED7DE5100C7017A /* libRedpacketAliAuthAPILib.a */,
 				929D8F581EC3009F0007FA40 /* libRedpacketAliAuthAPILib.a */,
+<<<<<<< HEAD
 				20509DEB14C46890460997E6 /* libPods-RedpacketAliAuthUIBundle.a */,
 				3ACAA1F6A2F7470202B0B6F4 /* libPods-RedpacketAliAuthUILib.a */,
+=======
+				3F830E63BFF7BA47D6F8E397 /* libPods-RedpacketAliAuthUILib.a */,
+>>>>>>> c26632877038a2175cbad10d9cbf327d466ff8c1
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -910,10 +1113,19 @@
 		92D19CDC1C9691F000EE7541 = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				920CA0E41C98424100D0CCC3 /* RedPacketLib */,
 				92D19CE61C9691F000EE7541 /* Products */,
 				929D8F571EC3009F0007FA40 /* Frameworks */,
 				1A5FE816C9BBECADA11F2A2B /* Pods */,
+=======
+				922B188C1ED824A200C7017A /* RedpacketAliAuthAPILib */,
+				922B15F11ED6808400C7017A /* Resource */,
+				920CA0E41C98424100D0CCC3 /* RedPacketLib */,
+				92D19CE61C9691F000EE7541 /* Products */,
+				929D8F571EC3009F0007FA40 /* Frameworks */,
+				9C51881F07D790D359CC5718 /* Pods */,
+>>>>>>> c26632877038a2175cbad10d9cbf327d466ff8c1
 			);
 			sourceTree = "<group>";
 		};
@@ -923,6 +1135,15 @@
 				92640A2A1E0A2A2200DE4DDF /* libRedpacketAliAuthUILib.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9C51881F07D790D359CC5718 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74738F322561ABC95D03965E /* Pods-RedpacketAliAuthUILib.debug.xcconfig */,
+				EDBD65293AB7D13184868188 /* Pods-RedpacketAliAuthUILib.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		E7C7E41A1D4EF471004C916B /* Public */ = {
@@ -988,15 +1209,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+<<<<<<< HEAD
+=======
+		922B161C1ED680AD00C7017A /* RedpacketAliAuthUIBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 922B16201ED680AD00C7017A /* Build configuration list for PBXNativeTarget "RedpacketAliAuthUIBundle" */;
+			buildPhases = (
+				922B161B1ED680AD00C7017A /* Resources */,
+				F26F42A0C690C04C29E35284 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedpacketAliAuthUIBundle;
+			productName = RedpacketAliAuthUIBundle;
+			productReference = 922B161D1ED680AD00C7017A /* RedpacketAliAuthUIBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+>>>>>>> c26632877038a2175cbad10d9cbf327d466ff8c1
 		926409891E0A2A2200DE4DDF /* RedpacketAliAuthUILib */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92640A271E0A2A2200DE4DDF /* Build configuration list for PBXNativeTarget "RedpacketAliAuthUILib" */;
 			buildPhases = (
+<<<<<<< HEAD
 				68AD379C968A680B0CB3AB83 /* [CP] Check Pods Manifest.lock */,
 				9264098A1E0A2A2200DE4DDF /* Sources */,
 				92640A251E0A2A2200DE4DDF /* Frameworks */,
 				92640A1B1E0A2A2200DE4DDF /* RedpacketExport */,
 				ED3709A233E9C562FF527F24 /* [CP] Copy Pods Resources */,
+=======
+				553463ABBABE7DBEA081FD92 /* [CP] Check Pods Manifest.lock */,
+				9264098A1E0A2A2200DE4DDF /* Sources */,
+				92640A251E0A2A2200DE4DDF /* Frameworks */,
+				92640A1B1E0A2A2200DE4DDF /* RedpacketExport */,
+				EC40393B37BF194EFA7DA1DB /* [CP] Copy Pods Resources */,
+>>>>>>> c26632877038a2175cbad10d9cbf327d466ff8c1
 			);
 			buildRules = (
 			);
@@ -1057,6 +1305,27 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+<<<<<<< HEAD
+=======
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		553463ABBABE7DBEA081FD92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+>>>>>>> c26632877038a2175cbad10d9cbf327d466ff8c1
 		922B164F1ED68A8100C7017A /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1071,6 +1340,21 @@
 			shellScript = "\nbuild_targets=(\"RedpacketAliAuthUILib\")\nbash ./RedpacketLibShell.sh $build_targets $CONFIGURATION\n";
 		};
 		ED3709A233E9C562FF527F24 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedpacketAliAuthUILib/Pods-RedpacketAliAuthUILib-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC40393B37BF194EFA7DA1DB /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1231,14 +1515,25 @@
 		};
 		92640A281E0A2A2200DE4DDF /* Debug */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = FD09905645FA649C0B775461 /* Pods-RedpacketAliAuthUILib.debug.xcconfig */;
+=======
+			baseConfigurationReference = 74738F322561ABC95D03965E /* Pods-RedpacketAliAuthUILib.debug.xcconfig */;
+>>>>>>> c26632877038a2175cbad10d9cbf327d466ff8c1
 			buildSettings = {
 				ENABLE_BITCODE = YES;
 				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch *.xcode* *.xcassets (*) .DS_Store CVS .svn .git .hg *.pbproj *.pbxproj *.framework";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+<<<<<<< HEAD
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+=======
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RedpacketAliAuthAPILib/lib",
+				);
+>>>>>>> c26632877038a2175cbad10d9cbf327d466ff8c1
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CODE_SIGN_FLAGS = "";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -1250,14 +1545,25 @@
 		};
 		92640A291E0A2A2200DE4DDF /* Release */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = 3B5F3A9AA0E5CB26265FBAEC /* Pods-RedpacketAliAuthUILib.release.xcconfig */;
+=======
+			baseConfigurationReference = EDBD65293AB7D13184868188 /* Pods-RedpacketAliAuthUILib.release.xcconfig */;
+>>>>>>> c26632877038a2175cbad10d9cbf327d466ff8c1
 			buildSettings = {
 				ENABLE_BITCODE = YES;
 				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch *.xcode* *.xcassets (*) .DS_Store CVS .svn .git .hg *.pbproj *.pbxproj *.framework";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+<<<<<<< HEAD
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+=======
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RedpacketAliAuthAPILib/lib",
+				);
+>>>>>>> c26632877038a2175cbad10d9cbf327d466ff8c1
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CODE_SIGN_FLAGS = "";
 				OTHER_LDFLAGS = "$(inherited)";
