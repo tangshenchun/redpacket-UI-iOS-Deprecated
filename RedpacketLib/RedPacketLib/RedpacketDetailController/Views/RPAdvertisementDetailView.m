@@ -440,7 +440,7 @@
                                    completed:^(UIImage *image, NSError *error, YZHSDImageCacheType cacheType, NSURL *imageURL) {
         
         if (image && !error) {
-            [RPRedpacketAdverAnalysis redpacketAdverViewDetailEventWithRedapcketID:detailModel.redpacketID];
+           [RPRedpacketAnalysiser redpacketAdverViewDetailEventWithRedapcketID:detailModel.redpacketID];
         }
         
     }];

@@ -10,12 +10,13 @@
 #import "RPRedpacketModel.h"
 #import "RPRedpacketManager.h"
 
+
 @implementation RedpacketTypeAdvertisementHandle
 
 - (void)getRedpacketDetail {
     [super getRedpacketDetail];
     [self showRedPacketDetailViewController:self.messageModel];
-    [RPRedpacketAdverAnalysis redpacketAdverOpenEventWithRedpacketID:self.messageModel.redpacketID];
+    [RPRedpacketAnalysiser redpacketAdverOpenEventWithRedpacketID:self.messageModel.redpacketID];
 }
 
 @end
